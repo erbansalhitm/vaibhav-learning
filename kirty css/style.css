@@ -1,0 +1,717 @@
+.first {
+    color: #000;
+    background-color: red;
+}
+
+.fontss {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    color: black;
+}
+
+.web-fonts {
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: blue;
+    font-size: 32px;
+    line-height: 8.3em;
+    /* font size aap px me or bhi style me kr skte hai
+    line height mtlb do line ke beech me kitna gap hoga
+     */
+}
+
+#color {
+    color: darkcyan;
+}
+
+#color-2 {
+    color: rgb(57, 173, 57);
+}
+
+#color-3 {
+    color: #f88fff;
+}
+
+
+/*hex color hote hai jiskko google se le skte hai
+yeh code se ready hote hai uski hex colour picker se aap colour le skte ho  */
+
+
+/* same background colour ke liye bhi yese hiusko use krte hai. */
+
+#bckg {
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    color: white;
+    border-width: 4px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+
+/* RADIUS se side corner bana skte hai width se chodhai shi hogi  */
+
+#bckg-2 {
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    color: white;
+    border-top: 4px solid brown;
+    border-bottom: 6px solid red;
+    border-right: 3px solid pink;
+    border-left: 2px solid purple;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 7px;
+}
+
+#bckg-3 {
+    height: 500px;
+    width: 500px;
+    color: red;
+    border-top: 4px solid brown;
+    border-bottom: 6px solid red;
+    background-image: url(https://www.pinpng.com/pngs/m/128-1281914_hello-kitty-png-download-hello-kitty-logo-png.png);
+    background-position: 150px 30px;
+    /* background-position: top right, center right */
+    /* aap yeh px ke thought bhi upper niche kr skte hai jese 50px top, yaa fir right top letf krke or bottom left right, center kr skte hai */
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+#box {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.containar {
+    width: 234PX;
+    height: 158px;
+    background-color: #FFF59D;
+    color: blue;
+    border: 5px solid orangered;
+    padding: 71px;
+    /* padding: 23px 46px 67px 54px....... top right bottom left(TRBL) */
+    /* padding border ke under ke content ko thoda consixe or over size krne ke liye ki jati hai......padding ko bhi top left right bottom se de skte hai */
+    margin: 18px;
+    /* margin border ke bahar ke liye ki jati hai jisse uske aas pass ke area ko control kr ske space de ske..........margin ko bhi top left right bottom se de skte hai */
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    /* background: url("https://th.bing.com/th/id/OIP.8QgHF_QxuxhVJzKiD-03NwHaEK?w=241&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"); */
+    background: url("https://images4.alphacoders.com/115/thumb-1920-115716.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.title {
+    display: inline;
+    position: absolute;
+    left: 50%;
+    top: 126px;
+    transform: translateX(-50%);
+    font-size: 97px;
+    margin: auto;
+    border: #000;
+    border-radius: 4px;
+    background-color: transparent;
+    text-align: center;
+    color: aliceblue;
+}
+
+.containers {
+    width: 837px;
+    border: 24px solid red;
+    margin: auto;
+    display: block;
+    height: 460px;
+    padding: 37px;
+    background-color: yellow;
+}
+
+
+/* img ke liye dispplay block krna pdta hai */
+
+.items {
+    border: 3px solid blue;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: grey;
+    position: relative;
+}
+
+
+/* position aap static(default) rhti hai
+1.fixed hoti hai jo jaha lagi vahi fixed ho gyi, jse niche chat krne ke liye hota hai search ke liye ki fir vhi hoga top bottom kr kste hai.
+2. absolute apne parent tag ke pass aa jati hai jese body or headrer ho jata hai. yeh gap nhi lega but uske sath aap left right top kr skte ho
+3.relative mtlb apni hi jgh position se top, right, left, kr skta hai 
+ 4. sticky means ki yeh kahi stick kr skte hai fir aap khi jaye voh aapke sath move hoga*/
+
+#fruits {
+    float: left;
+    width: 426px;
+}
+
+#computer {
+    float: left;
+    width: 376px;
+}
+
+#statinory {
+    float: left;
+    width: auto;
+    padding: 30px 12px;
+    margin: 45px;
+}
+
+.left {
+    display: block;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+    width: 20px;
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    top: -9px;
+    left: 43px;
+}
+
+.logo1 {
+    display: inline;
+    position: absolute;
+    top: 7px;
+    left: -11px;
+}
+
+.middle {
+    display: inline;
+    position: absolute;
+    top: 6px;
+    right: -1249px;
+    margin: auto;
+    padding: 0px;
+    color: #000;
+    font-size: 22px;
+}
+
+
+/* center ke liye display block 
+margin 12px auto
+width 33% */
+
+nav ul li {
+    display: inline;
+    top: 20px;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: auto;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: -1416px;
+    top: 25px;
+    font-size: 20px;
+}
+
+.right .btn {
+    margin: auto;
+    padding: 4px 20px;
+    width: 85px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+}
+
+.right .btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.img {
+    width: 350px;
+    margin: auto;
+    /* filter:invert(100%) fir yeh black logo ko white or visa verse kr skta hai */
+}
+
+.site-container {
+    margin: auto;
+    width: 100%;
+    border: #000;
+}
+
+.form h3 {
+    font-size: 51px;
+    color: #fff;
+    margin: 10px 12px;
+    display: inline-block;
+    top: 234px;
+    left: 77px;
+    position: absolute;
+    padding: 5px 71px;
+}
+
+.container {
+    border: 4px solid white;
+    display: inline-block;
+    padding: 32px;
+    margin: auto;
+    position: absolute;
+    left: 146px;
+    top: 255px
+}
+
+.phase {
+    color: #fff;
+    border: black solid 4px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 16px;
+    margin: auto;
+    font-size: 33px;
+    background-color: #fff;
+}
+
+.form {
+    display: inline-block;
+}
+
+.container .btn {
+    padding: 12px;
+    font-size: 18px;
+    border: black solid 4px;
+    border-radius: 4px;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: green;
+    /* visibility: hidden; */
+    /* display: none; */
+    /* display none voh puri jgh hi hata deta hai jaha voh element tha */
+    /* visibility se voh chij hatai jaa skti hai but voh vaha rhegi but dikhegi nhi. but uski jgh reserve rhti hai */
+}
+
+#box3 {
+    background-color: yellow;
+    position: relative;
+    top: 17px;
+    z-index: 3px;
+}
+
+#box4 {
+    background-color: blue;
+    position: relative;
+    top: 34px;
+    z-index: 57px;
+    /* z index jiska bhi jyada hoga voh apne aap upper aa jayega */
+}
+
+.flex {
+    height: 544%;
+    width: 100%;
+    border: 4px solid red;
+    display: flex;
+    background-color: #f88fff;
+    /* flex properties for flex container */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* by default row hi hota hai */
+    /* aap direcation change kr skte ho reverse kr skte ho column laga skte ho */
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse;  */
+    /* flex wrap se flex items according to screen setbho jayenge */
+    /* flex flow is a shorthand for flex direction or wrap both like u use......flex-flow: row-reverse wrap */
+    /* yeh horizontal direction me kaam krega */
+    justify-content: center;
+    /* yeh box ko center me krne ke liye use kiya jaata hai */
+    justify-content: space-between;
+    justify-content: space-evenly;
+    /* evenly me sbb box ki space aa jayegi */
+    /* or yeh vertical ke liye kaam krega */
+    align-items: center;
+    align-items: flex-end;
+    align-items: stretch;
+}
+
+.item {
+    background-color: #FFF59D;
+    width: 100px;
+    height: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 8%;
+    font-size: 30px;
+}
+
+#item1 {
+    /* flex properties for a flex item */
+    order: 3;
+    /* order rank ke hisab se box stand krega jese 1 se 100 tkk jesa rank voh vaha chala jayega 
+    */
+    flex-grow: 2;
+}
+
+#item2 {
+    flex-shrink: 1;
+    /*  */
+    flex-basis: 320px;
+    /* when flex direction: is set to row flex basis: will control width */
+    /* /* when flex direction: is set to column flex basis: will control height */
+}
+
+#item3 {
+    flex: 2 2 220px;
+    /* flex grow- flex strink- flex basis */
+    align-self: flex-start;
+}
+
+.res {
+    text-align: center;
+    font-size: 10px;
+    border: 2px solid red;
+    /* width: 400px; */
+    /* height: 325px; */
+    width: 100vw;
+    height: 100vh;
+    /* mtlb yeh vh or vw pure page pe kaam krte hai toh mtlb yeh pre page ke border ko full kr denge v mtlv view yeh 0 se 100 ke beech shi kaam krta hai
+     */
+}
+
+#first {
+    /* font-size: 10em; */
+    /* yeh apne parent container ka 10 guna ho gya hai jese .res jo ki iska parent hai usme 10px hai or iska khud 10em mtlb abhi iski accual sixe 100px hai jo ki aap inpect me computed me jaake check kr skte hai: */
+    /* padding: 3em; */
+    /* ab yeh 3 guna 3em ke font size ke hisab se hoga jo uska khud ka container hai jo ki computed me hi show hoga vaha font size jitna hoga uska 3 guna ho hayega jese iska 300px ho jayega unki vaha 100px font sixe tha */
+}
+
+html {
+    font-size: 15px;
+}
+
+#second {
+    /* font-size: 3rem; */
+    /* padding: 3rem; */
+    /* rem tbb kaam krta hai jbb pure html ka font size aapne diya ho voh uske hisab se guna hota hai jese isme 15px*3rem= 45px hai yeh pure page ke font size ko shi rkhene ke liye kiya jaata hai jisse usar agr page ko zoom bhi unzoom bhi kre toh font size uske sath follow up kr ske */
+}
+
+.sqaure {
+    border: 2px solid black;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    font-size: 55px;
+    display: none;
+}
+
+@media(max-width:300px) {
+    #sqaure1 {
+        display: block;
+    }
+}
+
+@media(max-width:500px) and (min-width:300px) {
+    #sqaure2 {
+        display: block;
+        color: aqua;
+    }
+}
+
+@media(max-width:700px) and (min-width:500px) {
+    #sqaure3 {
+        display: block;
+        color: violet;
+    }
+}
+
+@media(max-width:900px) and (min-width:700px) {
+    #sqaure4 {
+        display: block;
+        color: blue;
+    }
+}
+
+
+/* div > p..........if the p is right inside div then this css will be applied */
+
+
+/* div + p.......... if p is right div mtlb is the next sibling of div */
+
+
+/* child */
+
+
+/* this css only apply thired number of item */
+
+.child li:nth-child(3) {
+    color: purple;
+}
+
+
+/* this will apply all second item....mtlb har dusra item */
+
+.child li:nth-child(2n+0) {
+    color: red;
+}
+
+
+/* isme har thisra color change ho  jayega */
+
+.child li:nth-child(3n+3) {
+    color: blue;
+}
+
+
+/* odd change ke liye */
+
+.child li:nth-child(odd) {
+    background-color: greenyellow;
+}
+
+
+/* even ke liye */
+
+.child li:nth-child(even) {
+    background-color: palevioletred;
+}
+
+
+/* box-shadow */
+
+.cart-container {
+    display: flex;
+}
+
+.cart {
+    border: 3px solid red;
+    padding: 23px 12px;
+    margin: 25px 25px;
+    background-color: aqua;
+    box-shadow: 12px 10px green;
+    /* yeh plus vali value right or lower border pe show hoti hai */
+    box-shadow: -12px -10px palevioletred;
+    /* yeh minus vali value left upper or left side lgti hai */
+    box-shadow: 12px 10px 12px orangered;
+    /* yeh thired value se blood redius laga skte hai jese sparkling border ke liye or yehi agr minus kr denge toh voh upper or left side ho jayegi */
+    /* or agr ek fourth value or de denge toh voh rdius spread ho jayega */
+    box-shadow: inset 15px 10px purple;
+    /* yeh box ke under shadow ke liye use hota hai */
+}
+
+.cart h2 {
+    text-shadow: 2px 5px red;
+    /* yeh text ki shadow ko banata hai */
+    text-shadow: 2px 5px 5px white;
+    /* yeh thired value blur radius ke liye */
+}
+
+
+/* variable */
+
+.cart {
+    --cart-color: violet;
+    background-color: var(--cart-color)
+    /* yeh -- aab kisi chij ke liye varible decide kr skte hai fir voh aap jaha use krenge voh apply ho jayeggas */
+}
+
+.root {
+    --primary-color: red;
+    --secondary-color: blue;
+    /* abb iss varibale ko hum kahi bhi use kr skye hai 
+    like background-color: var(--primary-color);.........toh yeh apply hojayega */
+    /* varible me aap kuch bhi set kr skte hai margin padding color sixe kuch bhi */
+}
+
+.ani-container {
+    display: flex;
+    background-color: greenyellow;
+}
+
+.ani-container .box {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* animation-name: kirty1; */
+    animation-name: kirty2;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    /* agr yhi iteration ko infinite kr de do toh chalta hi rhega */
+    animation-fill-mode: forwards;
+    /* animation khtm hone ke baad voh vhi stop ho jayega change ke sath */
+    animation-timing-function: ease-in-out;
+    /* yeh slow se fast hoga aanimation mtlb start slow hoga fir fast */
+    animation-delay: 3s;
+    /* isse animation 3s baad shuru hoga */
+    animation-direction: reverse;
+    /* isse direction change kr skte hai */
+}
+
+@keyframes kirty1 {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 1400px;
+    }
+}
+
+@keyframes kirty2 {
+    0% {
+        top: 0px;
+        left: 250px;
+    }
+    25% {
+        top: 250px;
+        left: 0px;
+    }
+    75% {
+        top: 500px;
+        left: 250px;
+    }
+    100% {
+        top: 250px;
+        left: 0px;
+    }
+}
+
+
+/* isse aap animation ko time process ke sath change kr skte hai */
+
+.transitions {
+    height: 150px;
+    width: 200px;
+    color: #fff;
+    border: 2px solid red;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: 200px;
+    transition-property: background-color;
+    transition-property: color;
+    transition-duration: 5s;
+    transition: all;
+}
+
+.transitions:hover {
+    background-color: aqua;
+    color: red;
+    height: 300px;
+    width: 400px;
+    border-radius: 100px;
+    font-size: 35px;
+}
+
+.transform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f88fff;
+    height: 10vw;
+}
+
+.transform .box {
+    background-color: orangered;
+    border: 2px solid purple;
+    border-radius: 2px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    align-content: center;
+    transition: all 1s ease-in-out;
+}
+
+.transform .box:hover {
+    /* transform: rotate(360deg); */
+    /* transform: skew(40deg); */
+    /* transform: scale(2); */
+    transform: translateX(125px);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 150px auto 100px;
+    /* grid-template-columns: repeat(3, auto); */
+    /* grid-template-columns: 1fr 4fr 1fr; */
+    grid-template-rows: 100px 50px;
+    background-color: aqua;
+    border: 5px solid black;
+    grid-gap: 2rem;
+}
+
+.grids {
+    /* height: 50px; */
+    /* width: 100px; */
+    background-color: gray;
+    margin: 3px;
+    text-align: center;
+    align-content: center;
+    border: 5px solid black;
+    padding: 3px;
+}
+
+.gridsss {
+    display: grid;
+    grid-template-rows: 50px 50px 50px auto;
+    grid-auto-rows: 30px;
+    /* mtlb jo row ka size nhi  bataya usko auto se set kr skte hai */
+    grid-gap: 1rem;
+    /* grid-template-columns: repeat(3, auto); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* yeh auto fit ormin max responsive ke liye use hoya hai */
+    background-color: chartreuse;
+    border: 5px solid #000;
+}
+
+.dibba {
+    background-color: yellow;
+    margin: 3px;
+    /* text-align: center; */
+    /* align-content: center; */
+    border: 5px solid black;
+}
+
+.dibba:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.dibba:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
